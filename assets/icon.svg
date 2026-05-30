@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Concrete Job Costing">
+  <rect width="512" height="512" rx="112" fill="#203329"/>
+  <path d="M112 338h288v46H112z" fill="#f2ba32"/>
+  <path d="M151 138h210c22 0 40 18 40 40v150H111V178c0-22 18-40 40-40z" fill="#e4e0d6"/>
+  <path d="M150 187h95v44h-95zM267 187h95v44h-95zM150 254h212v44H150z" fill="#60706a"/>
+  <path d="M112 338h288v46H112z" fill="#f2ba32"/>
+  <path d="M175 395h55v30h-55zM282 395h55v30h-55z" fill="#111c17"/>
+  <path d="M118 117l60-48h156l60 48z" fill="#aa4d3f"/>
+</svg>

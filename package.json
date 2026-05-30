@@ -1,0 +1,9 @@
+{
+  "name": "concrete-job-costing-pwa",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A mobile-friendly React PWA for concrete job costing.",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
