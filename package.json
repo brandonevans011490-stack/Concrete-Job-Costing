@@ -4,6 +4,8 @@
   "private": true,
   "description": "A mobile-friendly React PWA for concrete job costing.",
   "scripts": {
-    "start": "node server.js"
+    "build": "node scripts/verify-static.js",
+    "dev": "node scripts/serve-static.js",
+    "start": "node scripts/serve-static.js"
   }
 }
