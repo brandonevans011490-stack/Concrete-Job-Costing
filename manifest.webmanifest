@@ -2,7 +2,7 @@
   "name": "Concrete Job Costing",
   "short_name": "Job Costing",
   "description": "Mobile concrete job costing, overhead tracking, and profit reports.",
-  "start_url": "./index.html",
+  "start_url": "./",
   "scope": "./",
   "display": "standalone",
   "background_color": "#f6f3ec",

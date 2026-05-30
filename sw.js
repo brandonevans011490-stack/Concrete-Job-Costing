@@ -3,11 +3,8 @@ const APP_FILES = [
   "./",
   "./index.html",
   "./manifest.webmanifest",
-  "./src/app.js",
-  "./src/styles.css",
-  "./vendor/react.production.min.js",
-  "./vendor/react-dom.production.min.js",
-  "./vendor/lucide.min.js",
+  "./app.js",
+  "./styles.css",
   "./assets/icon.svg",
   "./assets/icon-192.png",
   "./assets/icon-512.png"

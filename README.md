@@ -1,34 +1,35 @@
 # Concrete Job Costing PWA
 
-A mobile-friendly React Progressive Web App for concrete job costing, overhead tracking, job reports, and profit alerts. It saves data in the browser on the device using local storage.
+A mobile-friendly static Progressive Web App for concrete job costing, overhead tracking, job reports, and profit alerts. It saves data in the browser on the device using local storage.
 
 ## Run Locally
 
-From this folder:
+Open `index.html` directly in a browser. No server, Node app, npm command, or build step is required.
 
-```bash
-npm run dev
-```
-
-Then open:
-
-```text
-http://127.0.0.1:8080
-```
-
-The app is static, so it can also be hosted on any HTTPS static host.
+For full PWA install testing, use the deployed HTTPS Vercel URL because service workers require a secure origin.
 
 ## Deploy on Vercel
 
 This project is configured as a static PWA for Vercel.
 
-1. Make sure `index.html`, `vercel.json`, `package.json`, `sw.js`, `manifest.webmanifest`, `src/`, `assets/`, and `vendor/` are at the repository root.
+1. Make sure `index.html`, `app.js`, `styles.css`, `vercel.json`, `package.json`, `sw.js`, `manifest.webmanifest`, and `assets/` are at the repository root.
 2. In Vercel, import the GitHub repository.
 3. Leave the framework preset as **Other** if Vercel asks.
 4. Use the repository root as the root directory.
 5. Deploy.
 
-Vercel uses `npm run build` to verify the required static files and serves the current folder as the output directory. All app routes fall back to `index.html`, so the app loads instead of showing `Not found`.
+Required root files for Vercel:
+
+- `index.html`
+- `app.js`
+- `styles.css`
+- `manifest.webmanifest`
+- `sw.js`
+- `vercel.json`
+- `package.json`
+- `assets/`
+
+Vercel serves the current folder directly. There is no npm build command. All app routes fall back to `index.html`, so the app loads instead of showing `Not found`.
 
 ## Android Install
 
